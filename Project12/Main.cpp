@@ -35,4 +35,5 @@ int main() {
 	}
 	transport->Input();
 	transport->Print();
+	delete transport;
 }
